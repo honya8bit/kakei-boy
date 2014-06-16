@@ -268,8 +268,11 @@
             this.chartHistogram.Location = new System.Drawing.Point(59, 66);
             this.chartHistogram.Name = "chartHistogram";
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
+            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
             this.chartHistogram.Series.Add(series1);
             this.chartHistogram.Size = new System.Drawing.Size(399, 177);
             this.chartHistogram.TabIndex = 1;
